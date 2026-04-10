@@ -1,0 +1,164 @@
+.ap-wrap {
+  background: #f6f7fb;
+  min-height: 100vh;
+  padding: 28px 60px;
+}
+
+.ap-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 16px;
+  margin-bottom: 14px;
+}
+
+.ap-header h2 {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.ap-form {
+  background: #fff;
+  border-radius: 14px;
+  padding: 18px 20px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+  border: 1px solid #f0f0f0;
+}
+
+.ap-grid {
+  display: grid;
+  grid-template-columns: 1.3fr 0.6fr 0.6fr 1.6fr;
+  gap: 10px;
+}
+
+.ap-form input,
+.ap-form textarea {
+  width: 100%;
+  padding: 12px 12px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  outline: none;
+  font-size: 14px;
+}
+
+.ap-form textarea {
+  margin-top: 10px;
+  height: 90px;
+  resize: vertical;
+}
+
+.ap-box {
+  background: #fff;
+  border-radius: 14px;
+  padding: 18px 20px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+  border: 1px solid #f0f0f0;
+  margin-top: 16px;
+}
+
+.box-title {
+  font-size: 16px;
+  font-weight: 900;
+  margin-bottom: 12px;
+}
+
+.ap-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.ap-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border: 1px solid #f0f0f0;
+  border-radius: 12px;
+  padding: 10px 12px;
+}
+
+.ap-img {
+  width: 54px;
+  height: 54px;
+  object-fit: contain;
+  background: #f2f3f7;
+  border-radius: 10px;
+  padding: 6px;
+}
+
+.ap-main {
+  flex: 1;
+  min-width: 0;
+}
+
+.ap-name {
+  font-weight: 900;
+}
+
+.ap-sub {
+  color: #666;
+  font-size: 13px;
+  margin-top: 4px;
+}
+
+.ap-actions {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: none;
+  background: #111;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.btn:hover {
+  opacity: 0.92;
+}
+
+.btn.small {
+  padding: 8px 10px;
+  font-size: 13px;
+}
+
+.btn.ghost {
+  background: #fff;
+  color: #111;
+  border: 1px solid #ddd;
+}
+
+.btn.danger {
+  background: #b91c1c;
+}
+
+.stock-mini {
+  display: flex;
+  gap: 6px;
+  margin-left: 6px;
+}
+
+.mini {
+  width: 32px;
+  height: 32px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  background: #fff;
+  cursor: pointer;
+  font-weight: 900;
+}
+
+@media (max-width: 1000px) {
+  .ap-wrap {
+    padding: 22px 18px;
+  }
+  .ap-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}

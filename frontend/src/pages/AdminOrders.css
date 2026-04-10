@@ -1,0 +1,157 @@
+.ao-wrap {
+  background: #f6f7fb;
+  min-height: 100vh;
+  padding: 28px 60px;
+}
+
+.ao-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 16px;
+  margin-bottom: 14px;
+}
+
+.ao-header h2 {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.muted {
+  color: #666;
+  margin: 6px 0 0;
+  font-size: 14px;
+}
+
+.muted.small {
+  font-size: 12.5px;
+  margin: 4px 0 0;
+}
+
+.btn {
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: none;
+  background: #111;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.btn:hover {
+  opacity: 0.92;
+}
+
+.btn.ghost {
+  background: #fff;
+  color: #111;
+  border: 1px solid #ddd;
+}
+
+.ao-box {
+  background: #fff;
+  border-radius: 14px;
+  padding: 18px 20px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+  border: 1px solid #f0f0f0;
+  margin-top: 16px;
+}
+
+.ao-card {
+  background: #fff;
+  border-radius: 14px;
+  padding: 18px 20px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+  border: 1px solid #f0f0f0;
+  margin-top: 16px;
+}
+
+.ao-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: center;
+}
+
+.oid {
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.amount {
+  font-size: 18px;
+  font-weight: 900;
+  background: #111;
+  color: #fff;
+  padding: 10px 14px;
+  border-radius: 10px;
+  white-space: nowrap;
+}
+
+.ao-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+  align-items: center;
+  margin-top: 14px;
+  flex-wrap: wrap;
+}
+
+.status .label {
+  font-weight: 900;
+  margin-right: 8px;
+}
+
+.pill {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: #e8f0ff;
+  color: #1d4ed8;
+  font-weight: 800;
+  font-size: 13px;
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+select {
+  padding: 10px 10px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  background: #fff;
+  font-weight: 700;
+}
+
+.items {
+  margin-top: 14px;
+  border-top: 1px solid #eee;
+  padding-top: 12px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 6px;
+  border-bottom: 1px dashed #eee;
+}
+
+.iname {
+  font-weight: 900;
+}
+
+.iprice {
+  font-weight: 900;
+}
+
+@media (max-width: 900px) {
+  .ao-wrap {
+    padding: 22px 18px;
+  }
+}

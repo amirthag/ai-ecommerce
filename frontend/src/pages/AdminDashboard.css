@@ -1,0 +1,120 @@
+.admin-wrap {
+  background: #f6f7fb;
+  min-height: 100vh;
+  padding: 28px 60px;
+}
+
+.admin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 16px;
+  margin-bottom: 18px;
+}
+
+.admin-header h2 {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.muted {
+  color: #666;
+  margin: 6px 0 0;
+  font-size: 14px;
+}
+
+.admin-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: none;
+  background: #111;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.btn:hover {
+  opacity: 0.92;
+}
+
+.admin-box {
+  background: #fff;
+  border-radius: 14px;
+  padding: 18px 20px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+  border: 1px solid #f0f0f0;
+  margin-top: 16px;
+}
+
+.grid3 {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 10px;
+}
+
+.metric {
+  background: #fff;
+  border-radius: 14px;
+  padding: 18px 20px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+  border: 1px solid #f0f0f0;
+}
+
+.metric-title {
+  font-size: 13px;
+  color: #666;
+  font-weight: 700;
+}
+
+.metric-value {
+  font-size: 26px;
+  font-weight: 900;
+  margin-top: 8px;
+}
+
+.box-title {
+  font-size: 16px;
+  font-weight: 900;
+  margin-bottom: 12px;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.trow {
+  display: grid;
+  grid-template-columns: 1fr 130px;
+  gap: 12px;
+  padding: 10px 10px;
+  border-radius: 10px;
+  border: 1px solid #f0f0f0;
+}
+
+.thead {
+  background: #fafafa;
+  font-weight: 900;
+}
+
+.right {
+  text-align: right;
+}
+
+@media (max-width: 900px) {
+  .admin-wrap {
+    padding: 22px 18px;
+  }
+  .grid3 {
+    grid-template-columns: 1fr;
+  }
+}
